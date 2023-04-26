@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=BankCard
+comment0.text=\r\nThe\ BankCard\ class\ has\ five\ attributes\:\ String\ Client_Name,\ String\ Issuer_Bank,\ int\ Card_Id,\ double\ Balance_Amount,\ String\ Bank_Account\r\n\ The\ constructor\ accepts\ four\ parameters.\ The\ values\ of\ those\ parameter\ are\ assign\r\nthe\ corresponding\ parameter\ values.\r\n\ Each\ attribute\ has\ a\ corresponding\ accessor\ method\ and\ setClient_Name\ and\ setBalance_Amount\ are\ setter\ methods.\r\n\ Then\ finally\ display\ the\ all\ attributes\ values.Hence\ BankCard\ is\ Parent\ class.\r\n\ @author\ (22067061\ Anubhav\ Ratna\ Dhakal)\r\n\ @version\ (5.1.0)\r\n
+comment1.params=Issuer_Bank\ Card_Id\ Balance_Amount\ Bank_Account
+comment1.target=BankCard(java.lang.String,\ int,\ double,\ java.lang.String)
+comment1.text=The\ constructor\ of\ this\ class\ accepts\ four\ inputs\ with\ the\ corresponding\ data\ types\:\ Card_Id,\ Issuer_Bank,\r\n\ Bank_Account,and\ Balance_Amount.\ The\ instance\ variable\ values\ are\ then\ initialized\ in\ \r\n\ accordance\ with\ the\ parameter\ values.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getClient_Name()
+comment2.text=Getters\ Method\ |\ Accessor\ Method\r\n\ Each\ attribute,\ such\ as\ cardId,\ issuerBank,\ bankAccount,\ and\ balanceAmount,\ \r\n\ has\ an\ accessor\ method\ with\ a\ return\ type\ that\ matches\ the\ data\ type\ of\ the\ instance\ variables.\r\nThe\ access\ modifiers\ of\ the\ accessor\ methods\ are\ public\r\n
+comment3.params=
+comment3.target=java.lang.String\ getIssuer_Bank()
+comment4.params=
+comment4.target=int\ getCard_Id()
+comment5.params=
+comment5.target=double\ getBalance_Amount()
+comment6.params=
+comment6.target=java.lang.String\ getBank_Account()
+comment7.params=Client_Name
+comment7.target=void\ setClient_Name(java.lang.String)
+comment7.text=Setters\ Method\ |\ Mutator\ Method\r\n\ ClientName\ and\ balanceAmount\ values\ are\ set\ using\ the\ setter\ methods.\r\n\ The\ setter\ methods'\ return\ type\ is\ void,\ and\ their\ access\ modifiers\ are\ public.\r\n
+comment8.params=Balance_Amount
+comment8.target=void\ setBalance_Amount(double)
+comment9.params=
+comment9.target=void\ display()
+comment9.text=Display\ Method\:\r\n\ The\ values\ of\ the\ instance\ variables\ Card_Id,\ Client_Name,\ Issuer_Bank,\ Bank_Account,\ \r\n\ and\ Balance_Amount\ are\ shown\ by\ the\ display\ method.\r\n\ If\ the\ clientName\ is\ empty,\ a\ message\ will\ be\ shown.\r\n\ The\ display\ method's\ access\ modifier\ is\ set\ to\ public,\ and\ its\ return\ type\ is\ void.\r\n
+numComments=10

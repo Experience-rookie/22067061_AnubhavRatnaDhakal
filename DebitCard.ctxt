@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment0.text=\r\n\ The\ DebitCard\ class\ has\ four\ attributes\:\ int\ Pin_Number,\ \ int\ Withdrawal_Amount,\ String\ Date_Of_Withdrawal,\ boolean\ Has_Withdrawn\r\n\ The\ constructor\ accepts\ six\ parameters.\ The\ values\ of\ those\ parameter\ are\ assign\r\nthe\ corresponding\ parameter\ values.\r\n\ Each\ attribute\ has\ a\ corresponding\ accessor\ method\ and\ setWithdrawal_Amount\ which\ accepts\ int\ Withdrawal_Amount\ as\ Setters\ Method\ and\ \r\n\ Withdraw\ method\r\n\ Then\ finally\ display\ the\ all\ attributes\ values.\ Hence\ DebitCard\ is\ child\ class\ of\ BankCard\r\n\ @author\ (22067061\ Anubhav\ Ratna\ Dhakal)\r\n\ @version\ (5.1.0)\r\n
+comment1.params=Balance_Amount\ Card_Id\ Bank_Account\ Issuer_Bank\ Client_Name\ Pin_Number
+comment1.target=DebitCard(double,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=The\ constructor\ of\ this\ class\ accepts\ six\ inputs\ with\ the\ corresponding\ data\ types\:\ Balance_Amount,\ Card_Id,\ Issuer_Bank,\ Bank_Account\r\n\ Client_Name,and\ Pin_Number.\ The\ instance\ variable\ values\ are\ then\ initialized\ in\ \r\n\ accordance\ with\ the\ parameter\ values.\r\n
+comment2.params=
+comment2.target=int\ getPin_Number()
+comment2.text=\ \ Each\ attribute,\ such\ as\ Pin_Number,\ Withdrawal_Amount,\ Date_Of_Withdrawal,\ and\ Has_Withdrawn,\ \r\n\ has\ an\ accessor\ method\ with\ a\ return\ type\ that\ matches\ the\ data\ type\ of\ the\ instance\ variables.\r\nThe\ access\ modifiers\ of\ the\ accessor\ methods\ are\ public\r\n
+comment3.params=
+comment3.target=int\ getWithdrawal_Amount()
+comment4.params=
+comment4.target=java.lang.String\ getDate_Of_Withdrawal()
+comment5.params=
+comment5.target=boolean\ getHas_Withdrawn()
+comment6.params=Withdrawal_Amount
+comment6.target=void\ setWithdrawal_Amount(int)
+comment6.text=It\ accepts\ the\ value\ of\ a\ single\ parameter\ (int\ Withdrawal\ Amount)\ \r\n\ and\ assigns\ it\ into\ the\ instance\ variable\ Withdrawal\ Amount\u0000\r\n
+comment7.params=Withdrawal_Amount\ Date_Of_Withdrawal\ Pin_Number
+comment7.target=void\ withdraw(int,\ java.lang.String,\ int)
+comment7.text=It\ accepts\ three\ parameters\:\ \r\n\ int\ Withdrawal_Amount,\ string\ Date_Of_Withdrawal,\ and\ \r\n\ int\ Pin_Number,\ and\ if\ all\ requirements\ are\ met,then\ withdraws\ money,\r\n\ and\ displays\ desirable\ output.\r\n
+comment8.params=
+comment8.target=void\ display()
+comment8.text=\r\n\ It\ displays\ full\ card\ information\ and,\ if\ Has_Withdrawn\ is\ true,\r\ndisplays\ withdrawal\ information;\ otherwise,\ only\ Balance_Amount\ is\ displayed.\ \r\n
+numComments=9
